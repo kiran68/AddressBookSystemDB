@@ -60,5 +60,12 @@ select * from address_book ;
  
  ---------------- UC10 -----------------------
  select type, count(*) as count from address_book group by type;
+ 
+ --------------- UC11 ------------------
+ insert into  Address_Book (first_name, last_name, email, phone, address, city, state, zip, name, type)
+values ('Shlok', 'Dayal', 'shlokdayal@123.com', '92456585', 'Bakawalnagar', 'Amla', 'Madhya_Pradesh', '123445', 'Babu', 'Friends'),
+       ('Renuka', 'Wedpathak', 'pathakrenuka@gmail.com', '72769393', 'Shantinagar', 'Amritsar', 'Panjab', '124578', 'Renu', 'MyFamily');
+       
+       select * from address_book;
 
     
