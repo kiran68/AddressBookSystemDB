@@ -1,0 +1,7 @@
+id,first_name,last_name,email,phone,address,city,state,zip,name,type
+1,kiran,urshil,kiran@urshil,91680681,bajajnagar,Aurangabad,Maharastra,12345,Kiran,Family
+2,Afrin,shaikh,RoseMir34@gmail.com,77756898644,Mirzapur,Bhopal,MP,886004,Afrin,Profession
+3,Altaf,Khan,altaf@khan,12345678,Panvel,Mumbai,Maharastra,147852,Altaf,Friend
+4,Mahesh,Dixit,mahesh@dixit,91254555,Chakan,Pune,Maharastra,145786,Mayu,MyFamily
+5,Satya,Yadav,satya123@yadav,72456655,Udaypur,Kolkata,Westbangal,456122,Satyprkash,Friend
+6,Ravi,Urshil,ravi117@gmail.com,23584555,Hadapsar,Pune,Maharashtra,145612,Dadya,MyFamily

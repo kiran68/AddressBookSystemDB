@@ -45,4 +45,17 @@ Select state, COUNT(*) as total_contacts from address_book group by state;
 ----------------- UC8 ---------------
 Select * from address_book where city = 'Pune' order by last_name;
 
+----------------- UC9 ---------------------
+alter table address_book add name varchar(50);
+alter table address_book add type varchar(50);
+select * from address_book ;
+
+ update address_book set name = 'Kiran', type = 'Family' where id = 1;
+ update address_book set name = 'Afrin', type = 'Profession' where id = 2;
+ update address_book set name = 'Altaf', type = 'Friend' where id = 3;
+ update address_book set name = 'Mayu', type = 'MyFamily' where id = 4;
+ update address_book set name = 'Satyprkash', type = 'Friend' where id = 5;
+ update address_book set name = 'Dadya', type = 'MyFamily' where id = 6;
+ select * from address_book;
+
     
