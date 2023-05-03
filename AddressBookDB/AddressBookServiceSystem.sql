@@ -36,4 +36,8 @@ select * from address_book;
 ------------------- UC5 ------------------------
 delete from address_book where first_name = 'Milind';
 select * from address_book ;
+-------------- UC6 ------------------------------
+select * from address_book where city = 'Kolkata';
+select * from address_book where state = 'Westbangal';
+
     
