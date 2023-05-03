@@ -27,4 +27,9 @@ create table address_book (
     insert into address_book(first_name, last_name, email, phone, address, city, state, zip)values ('Satya', 'Yadav', 'satya123@yadav', '72456655', 'Udaypur', '', 'Westbangal', '456122');
     insert into address_book(first_name, last_name, email, phone, address, city, state, zip)values ('Milind', 'Gupta', 'milind0@gmail.com', '8600091', 'Kalayugnagar', 'Siwan', 'Bihar', '123457');
     select * from address_book;
+
+----------------------- UC4 ------------------------------
+update  address_book set email = 'RoseMir34@gmail.com', phone = '77756898644', address = 'Mirzapur', city = 'Bhopal', state = 'MP', zip = '886004' where first_name = 'Afrin' and last_name = 'Shaikh';
+
+select * from address_book;
     
