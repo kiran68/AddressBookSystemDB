@@ -39,5 +39,7 @@ select * from address_book ;
 -------------- UC6 ------------------------------
 select * from address_book where city = 'Kolkata';
 select * from address_book where state = 'Westbangal';
+------------------------- UC7 -----------------------
+Select state, COUNT(*) as total_contacts from address_book group by state;
 
     
