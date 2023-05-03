@@ -57,5 +57,8 @@ select * from address_book ;
  update address_book set name = 'Satyprkash', type = 'Friend' where id = 5;
  update address_book set name = 'Dadya', type = 'MyFamily' where id = 6;
  select * from address_book;
+ 
+ ---------------- UC10 -----------------------
+ select type, count(*) as count from address_book group by type;
 
     
