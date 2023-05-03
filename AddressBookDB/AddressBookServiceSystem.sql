@@ -42,4 +42,7 @@ select * from address_book where state = 'Westbangal';
 ------------------------- UC7 -----------------------
 Select state, COUNT(*) as total_contacts from address_book group by state;
 
+----------------- UC8 ---------------
+Select * from address_book where city = 'Pune' order by last_name;
+
     
