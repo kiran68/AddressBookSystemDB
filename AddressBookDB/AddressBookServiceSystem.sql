@@ -32,4 +32,8 @@ create table address_book (
 update  address_book set email = 'RoseMir34@gmail.com', phone = '77756898644', address = 'Mirzapur', city = 'Bhopal', state = 'MP', zip = '886004' where first_name = 'Afrin' and last_name = 'Shaikh';
 
 select * from address_book;
+
+------------------- UC5 ------------------------
+delete from address_book where first_name = 'Milind';
+select * from address_book ;
     
